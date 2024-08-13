@@ -307,7 +307,6 @@ function PlaylistPage({
         <div className="w-11/12  md:w-full md:clear-both md:absolute md:bottom-0 md:flex md:left-0 md:right-0">
           <PlayingRightNow />
           <div className="md:w-2/4">
-            <ProgressBar />
             <MediaButtons />
           </div>
           <VolumeManger />
