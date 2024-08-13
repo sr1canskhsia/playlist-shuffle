@@ -26,7 +26,7 @@ function App({ player, setWordsToSearch }) {
       ref.current.style.backgroundColor = '#404040';
       if (player.currentSong === '') {
         ref.current.style.backgroundImage =
-          'url(./assets/images/silivan-munguarakarama-NrR9gn3lFKU-unsplash.jpg)';
+          'url(./yt-shuffle/assets/images/silivan-munguarakarama-NrR9gn3lFKU-unsplash.jpg)';
       } else {
         ref.current.style.backgroundImage = `url(${coverImage})`;
       }

@@ -25,7 +25,7 @@ module.exports = {
   mode: isDevelopment ? 'development' : 'production',
   entry: ['./src/main.jsx', './src/app.css'],
   output: {
-    publicPath: '/',
+    publicPath: '/yt-shuffle/',
     path: path.join(process.cwd(), 'dist'),
     filename: '[name].bundle.js',
     chunkFilename: '[name].[contenthash].js',
