@@ -1,5 +1,3 @@
-Live at: https://shuffle-playlist.vercel.app/
-
 # Playlist Shuffle - A web application to Shuffle your Youtube Playlist
 
 Playlist Shuffle - A web application with a better algorithm than YouTube's for playlist shuffling. Shuffle your music and videos in a smarter way and enjoy an improved listening experience.
@@ -10,15 +8,15 @@ The maximum playlist size is "12000"
 To combine multiple playlist you need to separate the playlist with a comma and add ", name:" at the end with the name you want the playlist to be called.
 These are valid ways to mix playlists on the Search Bar:
 
-# With the full playlist URL
+## With the full playlist URL
 
 https://www.youtube.com/playlist?list=PLH9twT5faHZX6hcW5fl-_WtsV2lMWbtjX, https://www.youtube.com/playlist?list=PL_dT1kMRpJEQyewQehX8LWYxve3iktijD, https://www.youtube.com/playlist?list=PLi06ybkpczJBvFfOhfqDyKMl1Lp2tDkTb, name:new playlist MIX with URL's
 
-# With playlist ID's.
+## With playlist ID's.
 
 PLH9twT5faHZX6hcW5fl-\_WtsV2lMWbtjX, PL_dT1kMRpJEQyewQehX8LWYxve3iktijD, PLi06ybkpczJBvFfOhfqDyKMl1Lp2tDkTb, name:new playlist MIX with ID's
 
-# Or with ID's and URL's
+## Or with ID's and URL's
 
 - After that you can shuffle the playlist
 - If you put the wrong ID or URL it will ignore it and combine the others, so check the URL or ID
